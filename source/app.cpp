@@ -1,7 +1,8 @@
 #include "app.hpp"
 
-int App::WindowInit(window)
+int App::WindowInit(SDL_Window* window)
 {
+	window = NULL;
 	//IDK
         SDL_Surface* screenSurface = NULL;
 //Initializing and if unsuccessful, it exits
