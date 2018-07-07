@@ -11,7 +11,7 @@
 class App
 {
 public:
-	int WindowInit(window);
+	int WindowInit(SDL_Window* window);
 	//void winDestroy(void);
 	//void scanInput(void);
 };
