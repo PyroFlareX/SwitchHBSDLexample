@@ -7,7 +7,7 @@
 #include "app.hpp"
 
 int main(int argc, char* args[]) {
-		SDL_Window* window = NULL;
+		SDL_Window* window;
 		
 		App game;
 		game.WindowInit(window);
